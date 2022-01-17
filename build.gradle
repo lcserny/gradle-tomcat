@@ -3,6 +3,8 @@ buildscript {
         gradlePluginPortal()
     }
 
+    // https://stackoverflow.com/questions/29343093/cant-debug-tomcat-application-with-gradle-tomcat-plugin
+    // http://kacperbak.github.io/Debugging-a-spring-mvc-web-app-with-the-gradle-tomcat-plugin-and-IntelliJ-IDEA.html
     dependencies {
         classpath 'com.bmuschko:gradle-tomcat-plugin:2.7.0'
     }
